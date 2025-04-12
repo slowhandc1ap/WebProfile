@@ -112,7 +112,7 @@ const About = () => {
   </h3>
 
   {/* Responsive Skills Grid - now with 3 columns on larger screens */}
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-10 sm:gap-10">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-10 sm:gap-10 ">
     {/* Technical Skills */}
     <div className="">
       <h4 className="text-lg md:text-xl font-semibold text-yellow-300 mb-2 md:mb-3 flex items-center">
@@ -144,8 +144,8 @@ const About = () => {
           ".NET/ASP.NET Core",
         ].map((skill, index) => (
           <li key={`tech-${index}`} className="flex items-center">
-           
-            <span className="text-sm md:text-base text-gray-300">{skill}</span>
+            <span className="w-1.5 h-1.5 md:w-2 md:h-2 bg-yellow-400 rounded-full mr-1.5 md:mr-2"></span>
+            <span className="text-xs  text-gray-300">{skill}</span>
           </li>
         ))}
       </ul>
@@ -179,8 +179,8 @@ const About = () => {
           "PostgreSQL",
         ].map((skill, index) => (
           <li key={`dev-${index}`} className="flex items-center">
-            
-            <span className="text-sm md:text-base text-gray-300">{skill}</span>
+            <span className="w-1.5 h-1.5 md:w-2 md:h-2 bg-cyan-400 rounded-full mr-1.5 md:mr-2"></span>
+            <span className="text-xs  text-gray-300">{skill}</span>
           </li>
         ))}
       </ul>
@@ -214,7 +214,8 @@ const About = () => {
           "English (B1 Level)",
         ].map((skill, index) => (
           <li key={`soft-${index}`} className="flex items-center">
-            <span className="text-sm md:text-base text-gray-300">{skill}</span>
+            <span className="w-1.5 h-1.5 md:w-2 md:h-2 bg-pink-400 rounded-full mr-1.5 md:mr-2"></span>
+            <span className="text-xs  text-gray-300">{skill}</span>
           </li>
         ))}
       </ul>
