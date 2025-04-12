@@ -246,7 +246,7 @@ const About = () => {
             { src: "/react.png", alt: "ReactLogo" },
             { src: "/Typescript_logo_2020.png", alt: "TypeScript" },
             { src: "/JavaScript-logo.png", alt: "JavaScript" },
-            { src: "/python-logo.png", alt: "Python" },
+            { src: "/Python-logo.png", alt: "Python" },
             { src: "/Dj-logo.png", alt: "Django" },
             { src: "/flask-logo.png", alt: "Flask" },
             { src: "/SQL_logo.png", alt: "SQL" },
