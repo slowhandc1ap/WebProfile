@@ -40,7 +40,7 @@ const Navbar = () => {
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
         isScrolled
           ? "bg-gradient-to-r from-black/95 via-gray-900/95 to-gray-950/95 shadow-lg backdrop-blur-sm py-3"
-          : "bg-gradient-to-r from-black via-gray-900 to-gray-950 py-4"
+          : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-4">
