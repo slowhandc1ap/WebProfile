@@ -18,18 +18,33 @@ const Projects = () => {
       githubLink: "#",
       imageUrl: "/smart-mtc.png"
     },
+    
     {
-      title: "FilesClub: Encrypted File Sharing & Chat Platform",
-      description: "Developed a secure file management and chat web application emphasizing privacy and encryption. The platform allows users to upload, download, and manage encrypted files, and includes a future-proof chat system.",
+      title: "FilesClub: Encrypted File Sharing ",
+      description: "Developed a secure file management and chat web application emphasizing privacy and encryption. The platform allows users to upload, download, and manage encrypted files",
       details: [
         "OTP Authentication: Implemented email-based One-Time Password (OTP) system for secure user verification.",
-        "File Management Dashboard: Displays list of uploaded files with unique file codes and Time-To-Delete (TTD) countdown.",
+        "File Management Dashboard: Displays list of uploaded files with unique file codes ",
         "SHA-256 Encryption: Secured file data using SHA-256 hashing to ensure confidentiality."
       ],
       technologies: ["Python Flask", "HTML", "SHA-256", "Email API"],
       githubLink: "https://github.com/slowhandc1ap/zipline_v0.1",
       imageUrl: "/fileclub.png"
     },
+  {
+  title: "Inventory Label Generator (VB.NET + QR Code)",
+  description: "A desktop application that generates and prints item labels with details and QR codes fetched from a SQL Server database.",
+  details: [
+    "Built with VB.NET WinForms for creating a simple GUI that allows users to search for item details using an Item Code.",
+    "Displays product information such as Model Number, Company Name, Notes, Type, and Address retrieved from Microsoft SQL Server.",
+    "Automatically generates a QR code for each item using the QRCoder library.",
+    "Includes a print feature that allows users to print the full label with both text and QR code."
+  ],
+  technologies: ["VB.NET", "WinForms", "Microsoft SQL Server", "QR Code (QRCoder library)"],
+  githubLink: "#",
+  imageUrl: "/PrintLable.png"
+},
+
     {
       title: "Parking Pass Management System C-R-U-D",
       description: "Developed a full-stack web application to streamline the creation and management of digital parking passes, enhancing operational efficiency in parking facilities.",
@@ -44,7 +59,7 @@ const Projects = () => {
    
     {
       title: "E-commerce Backoffice Dashboard",
-      description: "eveloped a comprehensive backoffice dashboard for managing e-commerce operations, focusing on product and order management, user administration, and analytics.",
+      description: "Developed a  backoffice dashboard for managing e-commerce operations, focusing on product and order management, user administration, and analytics.",
       details: [
         "Product Management: Enabled CRUD operations for products, including adding new items, updating details, and removing outdated listings",
         "Analytics Dashboard: Integrated data visualization tools to provide insights into sales performance and user behavio"
@@ -79,6 +94,7 @@ const Projects = () => {
     },
     // Add your additional projects here when you have them
     // They will automatically be included in the "Load More" functionality
+   
   ];
 
   // State for visible projects

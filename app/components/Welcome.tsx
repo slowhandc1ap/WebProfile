@@ -131,7 +131,7 @@ const Welcome = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Software Engineer
+            Software Developer
           </motion.h2>
 
           <motion.div
@@ -152,14 +152,11 @@ const Welcome = () => {
             transition={{ duration: 1, delay: 0.6 }}
           >
             <p className="text-lg text-gray-200 mb-8 leading-relaxed">
-              I am a dedicated IT student with practical experience in
-              full-stack development and system integration. I have built
-              projects using JavaScript, Node.js, React, and SQL,
-              including a real-time monitoring system for industrial applications with
-              Python and PostgreSQL.
+              As an IT student passionate about building impactful solutions, I approach development with a focus on practicality and scalability.
+Through hands-on projects using JavaScript, Node.js, React, and SQL, I’ve learned to translate real-world problems into functional systems — such as designing a real-time industrial monitoring platform using Python and PostgreSQL, where performance and data accuracy were key.
             </p>
           </motion.div>
-          <motion.button
+          {/* <motion.button
             className="relative px-8 py-3 bg-transparent border-2 border-yellow-400 
             rounded-full text-lg text-yellow-400 font-semibold shadow-xl 
             hover:bg-yellow-400 hover:text-gray-900 transition-all duration-300"
@@ -177,7 +174,7 @@ const Welcome = () => {
             }}
           >
             Contact Me
-          </motion.button>
+          </motion.button> */}
         </div>
       </div>
     </section>
