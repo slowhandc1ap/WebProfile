@@ -142,7 +142,7 @@ const Welcome = () => {
           >
             <HiLocationMarker className="text-3xl text-red-500 transition-all duration-300 group-hover:text-red-400 group-hover:scale-110" />
             <span className="text-xl md:text-2xl font-medium text-gray-500">
-              Prachinburi, Thailand
+               Thailand
             </span>
           </motion.div>
 
