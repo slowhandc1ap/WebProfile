@@ -18,8 +18,35 @@ const Projects = () => {
       githubLink: "#",
       imageUrl: "/smart-mtc.png"
     },
-    
+
     {
+      title: "Recommend movie website  (k-mean algorithm)",
+      description: "Web Scraping Techniques to Gather Movie Data for Machine Learning-Based Recommendations",
+      details: [
+        "Preprocessed the data and transformed it into TF-IDF vectors for clustering",
+        "Applied the K-means algorithm for movie clustering and developed a web application using the Flask framework",
+
+      ],
+      technologies: ["Python (Model)", "Machine Learnign", "K-Mean", "HTML CSS", "Flask"],
+      githubLink: "#",
+      imageUrl: "/movie-recommend.png"
+    },
+   
+
+    {
+      title: "Deep Learning for Recycled Waste Classification",
+      description: "Developed a deep learning model to classify recyclable and non-recyclable waste using image data. The model compares the performance of Artificial Neural Networks (ANN) and Convolutional Neural Networks (CNN) to enhance waste management systems for societal benefit.",
+      details: [
+        "Collected and processed a dataset of 4000 images, with 2000 images per class (recyclable and non-recyclable waste)",
+        "Compared performance of ANN and CNN algorithms using TensorFlow over 30 training epochs",
+        "Achieved CNN model performance with 89% accuracy, 97% precision, 97% recall, and 87% F1-score",
+        "Designed for integration into an information system for automated waste classification"
+      ],
+      technologies: ["Python", "TensorFlow", "Convolutional Neural Networks (CNN)", "Artificial Neural Networks (ANN)"],
+      githubLink: "#",
+      imageUrl: "/rycircle.png"
+    },
+     {
       title: "FilesClub: Encrypted File Sharing ",
       description: "Developed a secure file management and chat web application emphasizing privacy and encryption. The platform allows users to upload, download, and manage encrypted files",
       details: [
@@ -31,19 +58,19 @@ const Projects = () => {
       githubLink: "https://github.com/slowhandc1ap/zipline_v0.1",
       imageUrl: "/fileclub.png"
     },
-  {
-  title: "Inventory Label Generator (VB.NET + QR Code)",
-  description: "A desktop application that generates and prints item labels with details and QR codes fetched from a SQL Server database.",
-  details: [
-    "Built with VB.NET WinForms for creating a simple GUI that allows users to search for item details using an Item Code.",
-    "Displays product information such as Model Number, Company Name, Notes, Type, and Address retrieved from Microsoft SQL Server.",
-    "Automatically generates a QR code for each item using the QRCoder library.",
-    "Includes a print feature that allows users to print the full label with both text and QR code."
-  ],
-  technologies: ["VB.NET", "WinForms", "Microsoft SQL Server", "QR Code (QRCoder library)"],
-  githubLink: "#",
-  imageUrl: "/PrintLable.png"
-},
+    {
+      title: "Inventory Label Generator (VB.NET + QR Code)",
+      description: "A desktop application that generates and prints item labels with details and QR codes fetched from a SQL Server database.",
+      details: [
+        "Built with VB.NET WinForms for creating a simple GUI that allows users to search for item details using an Item Code.",
+        "Displays product information such as Model Number, Company Name, Notes, Type, and Address retrieved from Microsoft SQL Server.",
+        "Automatically generates a QR code for each item using the QRCoder library.",
+        "Includes a print feature that allows users to print the full label with both text and QR code."
+      ],
+      technologies: ["VB.NET", "WinForms", "Microsoft SQL Server", "QR Code (QRCoder library)"],
+      githubLink: "#",
+      imageUrl: "/PrintLable.png"
+    },
 
     {
       title: "Parking Pass Management System C-R-U-D",
@@ -56,7 +83,7 @@ const Projects = () => {
       githubLink: "https://github.com/slowhandc1ap/parking-ticket",
       imageUrl: "/parking-tricket.png"
     },
-   
+
     {
       title: "E-commerce Backoffice Dashboard",
       description: "Developed a  backoffice dashboard for managing e-commerce operations, focusing on product and order management, user administration, and analytics.",
@@ -80,21 +107,10 @@ const Projects = () => {
       githubLink: "https://github.com/slowhandc1ap/NewYorkCity-Accident--onweb-",
       imageUrl: "/newyork.png"
     },
-    {
-      title: "Recommend movie website  (k-mean algorithm)",
-      description: "Web Scraping Techniques to Gather Movie Data for Machine Learning-Based Recommendations",
-      details: [
-        "Preprocessed the data and transformed it into TF-IDF vectors for clustering",
-        "Applied the K-means algorithm for movie clustering and developed a web application using the Flask framework",
-      
-      ],
-      technologies: ["Python (Model)", "Machine Learnign", "K-Mean", "HTML CSS", "Flask"],
-      githubLink: "#",
-      imageUrl: "/movie-recommend.png"
-    },
+    
     // Add your additional projects here when you have them
     // They will automatically be included in the "Load More" functionality
-   
+
   ];
 
   // State for visible projects
@@ -107,8 +123,8 @@ const Projects = () => {
   };
 
   return (
-    <section 
-      id="projects" 
+    <section
+      id="projects"
       className="min-h-screen py-20 px-4 sm:px-8"
     >
       {/* Animated background elements */}
@@ -230,7 +246,7 @@ const Projects = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
         >
-          <button 
+          <button
             onClick={loadMoreProjects}
             className="px-8 py-3 bg-transparent border-2 border-yellow-400 rounded-full text-lg text-yellow-400 font-semibold shadow-xl hover:bg-yellow-400 hover:text-gray-900 transition-all duration-300"
           >

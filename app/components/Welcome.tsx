@@ -142,7 +142,7 @@ const Welcome = () => {
           >
             <HiLocationMarker className="text-3xl text-red-500 transition-all duration-300 group-hover:text-red-400 group-hover:scale-110" />
             <span className="text-xl md:text-2xl font-medium text-gray-500">
-               Thailand
+              Thailand
             </span>
           </motion.div>
 
@@ -152,8 +152,8 @@ const Welcome = () => {
             transition={{ duration: 1, delay: 0.6 }}
           >
             <p className="text-lg text-gray-200 mb-8 leading-relaxed">
-              As an IT student passionate about building impactful solutions, I approach development with a focus on practicality and scalability.
-Through hands-on projects using JavaScript, Node.js, React, and SQL, I’ve learned to translate real-world problems into functional systems — such as designing a real-time industrial monitoring platform using Python and PostgreSQL, where performance and data accuracy were key.
+              As an IT student passionate about innovative solutions, I focus on using AI to create practical and scalable systems.
+              Through projects with JavaScript, Node.js, React, SQL, and AI tools, I’ve tackled real-world problems — like building an AI-driven waste classification system with Python, prioritizing accuracy and impact.
             </p>
           </motion.div>
           {/* <motion.button
