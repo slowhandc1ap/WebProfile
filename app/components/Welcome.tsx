@@ -152,8 +152,7 @@ const Welcome = () => {
             transition={{ duration: 1, delay: 0.6 }}
           >
             <p className="text-lg text-gray-200 mb-8 leading-relaxed">
-              As an IT student passionate about innovative solutions, I focus on using AI to create practical and scalable systems.
-              Through projects with JavaScript, Node.js, React, SQL, and AI tools, I’ve tackled real-world problems — like building an AI-driven waste classification system with Python, prioritizing accuracy and impact.
+              I’m a junior software developer with practical experience in full-stack development and system integration through academic and real-world projects, including a real-time monitoring system in an industrial setting. I enjoy building useful tools, learning new technologies, and working closely with others to create systems that are both reliable and user-friendly.
             </p>
           </motion.div>
           {/* <motion.button
